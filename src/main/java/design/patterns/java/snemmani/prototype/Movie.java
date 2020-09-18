@@ -1,4 +1,4 @@
-package com.snemmani.prototype;
+package design.patterns.java.snemmani.prototype;
 
 public class Movie extends Item {
     private String runtime;

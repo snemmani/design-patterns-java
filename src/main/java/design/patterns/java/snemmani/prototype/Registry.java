@@ -1,4 +1,4 @@
-package com.snemmani.prototype;
+package design.patterns.java.snemmani.prototype;
 
 import java.util.HashMap;
 import java.util.Map;

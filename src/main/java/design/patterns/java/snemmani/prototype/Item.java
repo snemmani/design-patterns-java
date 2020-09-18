@@ -1,4 +1,4 @@
-package com.snemmani.prototype;
+package design.patterns.java.snemmani.prototype;
 
 public abstract class Item implements Cloneable {
     private String title;

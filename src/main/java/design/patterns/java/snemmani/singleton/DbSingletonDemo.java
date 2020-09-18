@@ -1,4 +1,4 @@
-package com.snemmani.singleton;
+package design.patterns.java.snemmani.singleton;
 
 public class DbSingletonDemo {
     public static void main(String[] args) {

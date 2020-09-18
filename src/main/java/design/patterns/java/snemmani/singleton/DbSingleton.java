@@ -1,4 +1,4 @@
-package com.snemmani.singleton;
+package design.patterns.java.snemmani.singleton;
 
 public class DbSingleton {
         private static volatile DbSingleton instance = null;
