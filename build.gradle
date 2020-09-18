@@ -29,6 +29,7 @@ sonarqube {
         property "sonar.organization", "snemmani"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml"
+
     }
 }
 
@@ -52,8 +53,9 @@ test {
 jacocoTestReport {
     reports {
         xml.enabled = true
-        html.enabled = true
+        csv.enabled = true
     }
 }
 
 test.finalizedBy jacocoTestReport
+jacocoTestReport.dependsOn test
