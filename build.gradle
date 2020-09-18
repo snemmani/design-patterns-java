@@ -22,6 +22,14 @@ repositories {
     mavenCentral()
 }
 
+sonarqube {
+    properties {
+        property "sonar.projectKey", "snemmani_design-patterns-java"
+        property "sonar.organization", "snemmani"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
+}
+
 dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:29.0-jre'
