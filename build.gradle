@@ -28,6 +28,7 @@ sonarqube {
         property "sonar.projectKey", "snemmani_design-patterns-java"
         property "sonar.organization", "snemmani"
         property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml"
     }
 }
 
