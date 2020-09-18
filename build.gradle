@@ -43,3 +43,6 @@ application {
     mainClassName = 'design.patterns.java.App'
 }
 
+test {
+    useJUnitPlatform()
+}
