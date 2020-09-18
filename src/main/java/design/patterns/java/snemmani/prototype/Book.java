@@ -1,4 +1,4 @@
-package com.snemmani.prototype;
+package design.patterns.java.snemmani.prototype;
 
 public class Book extends Item {
     private int numberOfPages;

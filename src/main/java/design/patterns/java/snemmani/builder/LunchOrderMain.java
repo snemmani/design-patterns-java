@@ -1,4 +1,4 @@
-package com.snemmani.builder;
+package design.patterns.java.snemmani.builder;
 
 public class LunchOrderMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.snemmani.prototype;
+package design.patterns.java.snemmani.prototype;
 
 public class PrototypeDemo {
     public static void main(String[] args) {
