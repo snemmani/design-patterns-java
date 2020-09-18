@@ -3,8 +3,7 @@
  */
 package design.patterns.java;
 
-import design.patterns.java.snemmani.abstractFactory.CreditCardAbstractFactoryDemo;
-import design.patterns.java.snemmani.factory.WebsiteFactoryMain;
+import design.patterns.java.snemmani.creational.abstractFactory.CreditCardAbstractFactoryDemo;
 
 public class App {
     public static void main(String[] args) {
