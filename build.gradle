@@ -28,7 +28,8 @@ sonarqube {
         property "sonar.projectKey", "snemmani_design-patterns-java"
         property "sonar.organization", "snemmani"
         property "sonar.host.url", "https://sonarcloud.io"
-        property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml"
+        property "sonar.junity.reportPaths", "build/test-results"
+        property "sonar.coverage.jacoco.xmlReportPaths", "build/jacoco"
 
     }
 }
@@ -48,14 +49,13 @@ application {
 
 test {
     useJUnitPlatform()
+    finalizedBy jacocoTestReport
 }
 
 jacocoTestReport {
+    dependsOn test
     reports {
         xml.enabled = true
         csv.enabled = true
     }
 }
-
-test.finalizedBy jacocoTestReport
-jacocoTestReport.dependsOn test
