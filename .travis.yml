@@ -1,0 +1,10 @@
+language: java
+jdk: oraclejdk8
+stages:
+  - test
+jobs:
+  include:
+    - stage: test
+      script: ./gradlew test
+
+
