@@ -29,7 +29,7 @@ sonarqube {
         property "sonar.organization", "snemmani"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.junity.reportPaths", "build/test-results"
-        property "sonar.coverage.jacoco.xmlReportPaths", "build/jacoco"
+        property "sonar.jacoco.reportPath", "build/jacoco/test.exec"
 
     }
 }
@@ -48,7 +48,6 @@ application {
 }
 
 test {
-    useJUnitPlatform()
     finalizedBy jacocoTestReport
 }
 
