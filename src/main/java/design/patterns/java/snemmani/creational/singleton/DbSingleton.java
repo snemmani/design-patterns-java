@@ -1,7 +1,7 @@
 package design.patterns.java.snemmani.creational.singleton;
 
 public class DbSingleton {
-        private static volatile DbSingleton instance = null;
+        private static DbSingleton instance = null;
 
         private DbSingleton() {
             if (instance != null) {
