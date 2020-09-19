@@ -1,4 +1,4 @@
-package design.patterns.java.snemmani.creational.abstractFactory;
+package design.patterns.java.snemmani.creational.abstract_factory;
 
 public abstract class CreditCardFactory {
     public static CreditCardFactory getCreditCardFactory(int creditScore) {

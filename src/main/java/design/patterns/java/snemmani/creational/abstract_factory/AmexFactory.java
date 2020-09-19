@@ -1,4 +1,4 @@
-package design.patterns.java.snemmani.creational.abstractFactory;
+package design.patterns.java.snemmani.creational.abstract_factory;
 
 public class AmexFactory extends CreditCardFactory {
     @Override
