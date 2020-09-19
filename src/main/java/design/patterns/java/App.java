@@ -3,10 +3,8 @@
  */
 package design.patterns.java;
 
-import design.patterns.java.snemmani.creational.abstract_factory.CreditCardAbstractFactoryDemo;
-
 public class App {
     public static void main(String[] args) {
-        CreditCardAbstractFactoryDemo.main(args);
+
     }
 }

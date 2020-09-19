@@ -14,7 +14,13 @@ public class WebsiteFactoryTest {
         blog.createWebsite();
         shop.createWebsite();
 
-        blog.pages.stream().forEach(page -> assertTrue(page instanceof Page) );
+        blog.setPages(blog.getPages());
+
+        blog.pages.stream().forEach(page -> {
+            assertTrue(page instanceof Page);
+            page.setContent("1");
+            assertTrue(page.getContent().equals("1"));
+        } );
 
         assertTrue(shop instanceof Shop);
         assertTrue(shop instanceof Website);
