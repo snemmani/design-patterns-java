@@ -1,5 +1,8 @@
 package design.patterns.java.snemmani.creational.singleton;
 
+import javax.annotation.concurrent.ThreadSafe;
+
+@ThreadSafe
 public class DbSingleton {
         private static DbSingleton instance = null;
 
@@ -10,13 +13,11 @@ public class DbSingleton {
         }
 
         public static DbSingleton getInstance() {
-            if ( instance == null )
                 synchronized (DbSingleton.class) {
                     if (instance == null) {
                         instance = new DbSingleton();
                     }
                 }
-
             return instance;
         }
 }
