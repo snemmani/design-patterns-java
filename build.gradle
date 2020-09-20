@@ -30,6 +30,7 @@ sonarqube {
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.junity.reportPaths", "build/test-results"
         property "sonar.jacoco.reportPath", "build/jacoco/test.exec"
+        property "sonar.login", "$SONAR_TOKEN"
 
     }
 }
