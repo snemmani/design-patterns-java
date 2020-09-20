@@ -6,6 +6,9 @@ stages:
 jobs:
   include:
     - stage: test
-      script: ./gradlew test
-
+      script:
+      - ./gradlew build jacocoTestReport sonarqube
+addons:
+  sonarcloud:
+    organization: snemmani
 
