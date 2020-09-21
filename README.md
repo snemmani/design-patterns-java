@@ -20,7 +20,13 @@ This class provides a way to access its only object which can be accessed direct
 ## Structural Patterns Implemented
 ### Composite
 The composite pattern is implemented as a Menu, to further add sub Menus and manage them
-### What is composite pattern?
+#### What is composite pattern?
 It generalizes a hierarchical structure. It helps in simplifying things too much and makes it easier for clients.
+### Decorator
+The decorator pattern is implemented as a Sandwich that contains Decorators to add condiments + sidings
+#### What is a Decorator pattern?
+Decorator pattern contains another entity while modifying the behaviour of the entity it involves.
+It doesn't change the underlying object.
 
+Decorator contains another entity within it
 ***More content to come***

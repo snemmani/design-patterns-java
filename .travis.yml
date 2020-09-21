@@ -7,8 +7,8 @@ jobs:
   include:
     - stage: test
       script:
-#      - ./gradlew build jacocoTestReport sonarqube
-        - ./gradlew sonarqube
+      - ./gradlew build jacocoTestReport sonarqube
+#        - ./gradlew sonarqube
 addons:
   sonarcloud:
     organization: snemmani
