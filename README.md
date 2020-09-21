@@ -27,6 +27,8 @@ The decorator pattern is implemented as a Sandwich that contains Decorators to a
 #### What is a Decorator pattern?
 Decorator pattern contains another entity while modifying the behaviour of the entity it involves.
 It doesn't change the underlying object.
-
-Decorator contains another entity within it
+### Facade (Pronounced as F-A-S-A-A-D)
+Facade pattern is implemented as a Dummy JDBC Connector
+#### What is a Facade pattern
+Facade pattern simplifies the client interface. To make things easier and cleanup code.
 ***More content to come***
